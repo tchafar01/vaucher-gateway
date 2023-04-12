@@ -1,0 +1,45 @@
+<div class="centered-text">
+    <h1><u>Veuillez remplir ce formulaire pour effectuer votre recharge</u></h1>
+</div>
+<div class="container">
+    <form>
+        <label for="phone-number">Numéro de téléphone :</label>
+        <input type="tel" id="phone-number" name="phone-number" placeholder="Entrer votre numéro">
+
+        <label for="amount">Montant :</label>
+        <input type="text" id="amount" name="amount" placeholder="Entrer votre montant">
+
+        <label for="operator">Opérateur :</label>
+        <select id="operator" name="operator">
+            <option value="">Sélectionnez un opérateur</option>
+            <option value="orange">Orange</option>
+            <option value="Inwi">Inwi</option>
+            <option value="Maroc Telecom">Maroc Telecom</option>
+        </select>
+
+        <label for="products">Opérateur :</label>
+        <select id="products" name="products">
+            <option value="">Sélectionner un produit</option>
+            <option value="*1">*1</option>
+            <option value="*2">*2</option>
+            <option value="*3">*3</option>
+            <option value="*4">*4</option>
+            <option value="*5">*5</option>
+            <option value="*6">*6</option>
+            <option value="*7">*7</option>
+            <option value="*8">*8</option>
+            <option value="*9">*9</option>
+        </select>
+
+
+    </form>
+</div>
+
+
+
+<div class="button">
+    <button class="button-primary" routerLink="/confirmation">Valider</button>
+
+</div>
+
+<router-outlet>"/"</router-outlet>
