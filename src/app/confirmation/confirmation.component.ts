@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./confirmation.component.css']
 })
 export class ConfirmationComponent {
-
-
 }
